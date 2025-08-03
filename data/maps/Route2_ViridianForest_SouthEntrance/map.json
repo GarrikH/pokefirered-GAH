@@ -75,5 +75,16 @@
     }
   ],
   "coord_events": [],
-  "bg_events": []
+  "bg_events": [
+    {
+      "type": "hidden_item",
+      "x": 1,
+      "y": 2,
+      "elevation": 0,
+      "item": "ITEM_ANTIDOTE",
+      "flag": "FLAG_TEMP_1",
+      "quantity": 3,
+      "underfoot": false
+    }
+  ]
 }

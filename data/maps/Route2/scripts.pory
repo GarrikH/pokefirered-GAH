@@ -1,0 +1,29 @@
+raw`
+Route2_MapScripts::
+	.byte 0
+
+Route2_EventScript_RouteSign::
+	msgbox Route2_Text_RouteSign, MSGBOX_SIGN
+	end
+
+Route2_EventScript_DiglettsCaveSign::
+	msgbox Route2_Text_DiglettsCave, MSGBOX_SIGN
+	end
+`
+
+script ROUTE2_GIRL_EVENT_SCRIPT {
+	trainerbattle_single(TRAINER_ROUTE_2_JAZZMINE, ROUTE2_TEXT_JAZZMINE_INTRO, ROUTE2_TEXT_JAZZMINE_OUTRO)
+	msgbox(ROUTE2_TEXT_JAZZMINE_POST_BATTLE, MSGBOX_AUTOCLOSE)
+}
+
+text ROUTE2_TEXT_JAZZMINE_INTRO {
+	format("Better get your weight up, real beasts ahead.")
+}
+
+text ROUTE2_TEXT_JAZZMINE_OUTRO {
+	format("I am glad you are well-prepared.")
+}
+
+text ROUTE2_TEXT_JAZZMINE_POST_BATTLE {
+	format("I want to see you do big things, {PLAYER}!")
+}

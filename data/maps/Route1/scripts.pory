@@ -1,0 +1,158 @@
+raw `
+Route1_MapScripts::
+	.byte 0
+
+Route1_EventScript_MartClerk::
+	lock
+	faceplayer
+	goto_if_set FLAG_GOT_POTION_ON_ROUTE_1, Route1_EventScript_AlreadyGotPotion
+	msgbox Route1_Text_WorkAtPokeMartTakeSample
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	checkitemspace ITEM_POTION
+	goto_if_eq VAR_RESULT, FALSE, EventScript_BagIsFull
+	bufferitemname STR_VAR_2, ITEM_POTION
+	playfanfare MUS_LEVEL_UP
+	message Text_ObtainedTheX
+	waitmessage
+	waitfanfare
+	additem ITEM_POTION
+	msgbox Route1_Text_PutPotionAway
+	call EventScript_RestorePrevTextColor
+	setflag FLAG_GOT_POTION_ON_ROUTE_1
+	release
+	end
+
+Route1_EventScript_AlreadyGotPotion::
+	msgbox Route1_Text_ComeSeeUsIfYouNeedPokeBalls
+	release
+	end
+
+Route1_EventScript_RouteSign::
+	msgbox Route1_Text_RouteSign, MSGBOX_SIGN
+	end
+
+`
+
+script Route1_EventScript_Ray{
+    trainerbattle_single(TRAINER_ROUTE_1_RAY, ROUTE1_TEXT_RAY_INTRO, ROUTE1_TEXT_RAY_OUTRO)
+    msgbox(ROUTE1_TEXT_RAY_POST_BATTLE, MSGBOX_AUTOCLOSE)
+}
+
+script Route1_HOBO_EVENT_SCRIPT{
+    lock
+    applymovement(Route1_HOBO_LOCALID, moves(face_player))
+    if(flag(FLAG_HOBO_KYLE_ASKED) == FALSE){
+        setflag(FLAG_HOBO_KYLE_ASKED)
+        msgbox(Route1_HOBO_TEXT_Q, MSGBOX_YESNO)
+        if(var(VAR_RESULT) == YES) {
+            addvar(GOOD_PTS, 5)
+            msgbox("HOBO KYLE: Thank you so much!", MSGBOX_NPC)
+        }
+        else {
+            msgbox("HOBO KYLE: Very well. That's ok with me...", MSGBOX_NPC)
+        }
+    }
+    else {
+        msgbox(Route1_HOBO_TEXT_DEFAULT, MSGBOX_NPC)
+    }
+    release
+    end
+}
+
+script Route1_COP_EVENT_SCRIPT{
+    lock
+    applymovement(Route1_COP_LOCALID, moves(face_player))
+    msgbox(Route1_COP_TEXT, MSGBOX_NPC)
+    release
+    end
+}
+
+script ROUTE1_WORKER_EVENT_SCRIPT {
+    lock
+    applymovement(ROUTE1_WORKER_LOCALID, moves(face_player))
+    if(flag(FLAG_GOT_MACHOP) == TRUE){
+        msgbox(Route1_WORKER_TEXT_2, MSGBOX_NPC)
+    }
+    elif(var(GOOD_PTS) >= 10){
+        msgbox(Route1_WORKER_TEXT_1, MSGBOX_NPC)
+        givemon(SPECIES_MACHOP, 10)
+        playfanfare(MUS_OBTAIN_KEY_ITEM)
+        waitfanfare()
+        setflag(FLAG_GOT_MACHOP)
+        msgbox("That's a MACHOP, dippie.", MSGBOX_NPC)
+    }
+    else {
+        msgbox(Route1_WORKER_TEXT_2, MSGBOX_NPC)
+    }
+    release
+    end
+}
+
+script Route1_EventScript_Boy{
+    lockall
+    applymovement(ROUTE1_BOY_LOCALID, moves(faceplayer))
+    waitmovement(0)
+    if(flag(FLAG_R1_ALTERCATION) == FALSE){
+        msgbox(Route1_Text_CanJumpFromLedges, MSGBOX_NPC)
+        msgbox(Route1_TEXT_RESPOND, MSGBOX_YESNO)
+        waitmessage()
+        if(var(VAR_RESULT) == NO) {
+            msgbox("Wise Move.", MSGBOX_DEFAULT)
+            addvar(GOOD_PTS, 5)
+        }
+        else {
+            addvar(GOOD_PTS, -5)
+            msgbox("The NPC gave you a\nwhomping to remember.", MSGBOX_DEFAULT)
+        }
+        setflag(FLAG_R1_ALTERCATION)
+        applymovement(ROUTE1_BOY_LOCALID, moves(walk_up * 12))
+        waitmovement(1)
+    }
+	releaseall
+}
+
+text Route1_HOBO_TEXT_Q{
+    "HOBO KYLE: This officer informed me\n"
+    "that if I sleep in the woods again\l" 
+    "they will arrest me in the morning;\p"
+    "however, I have nowhere better to go.\n"
+    "I thought I would at least\l"
+    "find peace outside of the town,\l"
+    "harming no one.\p"
+    "Could you spare anything to\nhelp me out?"
+}
+
+text Route1_HOBO_TEXT_DEFAULT{
+    format("HOBO KYLE: Gotta keep on keepin' on brotha!")
+}
+
+text Route1_COP_TEXT{
+    format("OFFICER: I think work puts most of us in a tough position\nfrom time to time, but I will try to do what I think is right.")
+}
+
+text ROUTE1_TEXT_RAY_INTRO {
+    format("Now is the time. Be ready.")
+}
+
+text ROUTE1_TEXT_RAY_OUTRO{
+    format("Good luck, you seem strong.")
+}
+
+text ROUTE1_TEXT_RAY_POST_BATTLE{
+    format("I like training here, it's close to my friends.")
+}
+
+text Route1_WORKER_TEXT_1 {
+    "Oh, wow, I get a good feeling from\n" 
+    "you. Why don't you take this?\p"
+    "I hope it will help you\n"
+    "on your way."
+}
+
+text Route1_WORKER_TEXT_2 {
+    "Hi."
+}
+
+text Route1_TEXT_RESPOND{
+    "Respond with violence?"
+}

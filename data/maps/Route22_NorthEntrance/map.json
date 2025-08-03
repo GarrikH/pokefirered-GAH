@@ -71,5 +71,16 @@
       "script": "Route22_NorthEntrance_EventScript_BoulderBadgeGuardTrigger"
     }
   ],
-  "bg_events": []
+  "bg_events": [
+    {
+      "type": "hidden_item",
+      "x": 13,
+      "y": 2,
+      "elevation": 0,
+      "item": "ITEM_LUCKY_EGG",
+      "flag": "FLAG_TEMP_1",
+      "quantity": 1,
+      "underfoot": false
+    }
+  ]
 }

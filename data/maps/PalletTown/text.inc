@@ -1,9 +1,9 @@
 PalletTown_Text_OakDontGoOut::
-    .string "OAK: Hey! Wait!\n"
+    .string "THAY: Hey! Wait!\n"
     .string "Don't go out!$"
 
 PalletTown_Text_OakGrassUnsafeNeedMon::
-    .string "OAK: It's unsafe!\n"
+    .string "THAY: It's unsafe!\n"
     .string "Wild POKéMON live in tall grass!\p"
     .string "You need your own POKéMON for\n"
     .string "your protection.\p"
@@ -21,7 +21,7 @@ PalletTown_Text_CanStoreItemsAndMonsInPC::
     .string "and POKéMON as data via PC.$"
 
 PalletTown_Text_OakPokemonResearchLab::
-    .string "OAK POKéMON RESEARCH LAB$"
+    .string "PALLET TOWN MONASTERY$"
 
 PalletTown_Text_PlayersHouse::
     .string "{PLAYER}'s house$"
@@ -65,3 +65,9 @@ PalletTown_Text_OakYouEnjoyingTraveling::
     .string "Good for you, good for you.\n"
     .string "Hohoho.$"
 
+
+PalletTown_Text_Surprise::
+    .string "Surprise!\n"
+    .string "You should use this right away.\p"
+    .string "I heard there are tough\n"
+    .string "TRAINERS everywhere these days.$"

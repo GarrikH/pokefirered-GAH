@@ -7,8 +7,8 @@ ViridianCity_PokemonCenter_1F_Text_FeelFreeToUsePC::
 ViridianCity_PokemonCenter_1F_Text_PokeCenterInEveryTown::
     .string "There's a POKéMON CENTER in every\n"
     .string "town ahead.\p"
-    .string "They charge no money, so don't\n"
-    .string "be shy about healing POKéMON.$"
+    .string "They charge no money, so take\n"
+    .string "advantage, friend.$"
 
 ViridianCity_PokemonCenter_1F_Text_PokeCentersHealMons::
     .string "POKéMON CENTERS heal your tired,\n"

@@ -26,9 +26,9 @@ ViridianCity_Text_ExplainCaterpieWeedle::
 
 ViridianCity_Text_GrandpaHasntHadCoffeeYet::
     .string "Oh, Grandpa!\n"
-    .string "Don't be so mean!\p"
-    .string "I'm so sorry.\n"
-    .string "He hasn't had his coffee yet.$"
+    .string "Don't be a dick!\p"
+    .string "I'm sorry.\n"
+    .string "He's old, bald, and angry.$"
 
 ViridianCity_Text_GoShoppingInPewterOccasionally::
     .string "I go shopping in PEWTER CITY\n"

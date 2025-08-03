@@ -4,7 +4,6 @@ PalletTown_PlayersHouse_2F_Text_PlayedWithNES::
     .string "It's time to go!$"
 
 PalletTown_PlayersHouse_2F_Text_PressLRForHelp::
-    .string "It's a posted notice…\p"
-    .string "If you're confused, ask for HELP!\n"
-    .string "Press the L or R Button!$"
+    .string "Things tend to turn out the best,\n"
+    .string "for those who make the best of\lthe way things turn out.$"
 

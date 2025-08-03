@@ -7,7 +7,7 @@ Route2_EventScript_ItemParalyzeHeal::
 	end
 
 ViridianForest_EventScript_ItemPokeBall::
-	finditem ITEM_POKE_BALL
+	finditem ITEM_ULTRA_BALL
 	end
 
 ViridianForest_EventScript_ItemAntidote::
@@ -15,7 +15,7 @@ ViridianForest_EventScript_ItemAntidote::
 	end
 
 ViridianForest_EventScript_ItemPotion::
-	finditem ITEM_POTION
+	finditem ITEM_SUPER_POTION
 	end
 
 MtMoon_1F_EventScript_ItemParalyzeHeal::
@@ -471,7 +471,7 @@ PokemonMansion_2F_EventScript_ItemHPUp::
 	end
 
 ViridianCity_EventScript_ItemPotion::
-	finditem ITEM_POTION
+	finditem ITEM_REVIVE
 	end
 
 Route11_EventScript_ItemGreatBall::
