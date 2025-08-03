@@ -44,7 +44,7 @@ PewterCity_Gym_EventScript_GymGuy::
 	lock
 	faceplayer
 	goto_if_set FLAG_DEFEATED_BROCK, PewterCity_Gym_EventScript_GymGuyPostVictory
-	msgbox PewterCity_Gym_Text_LetMeTakeYouToTheTop, MSGBOX_YESNO
+	msgbox PewterCity_Gym_Text_LetMeTakeYouToTheTop, MSGBOX_NPC
 	goto_if_eq VAR_RESULT, YES, PewterCity_Gym_EventScript_GymGuyTakeMeToTop
 	goto_if_eq VAR_RESULT, NO, PewterCity_Gym_EventScript_GymGuyDontTakeMeToTop
 	end

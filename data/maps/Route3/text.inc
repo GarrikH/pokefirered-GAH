@@ -2,7 +2,9 @@ Route3_Text_TunnelFromCeruleanTiring::
     .string "Whew… I better take a rest…\n"
     .string "Groan…\p"
     .string "That tunnel from CERULEAN takes a\n"
-    .string "lot out of you!$"
+    .string "lot out of you!\p"
+    .string "I saw some wild stuff.\n"
+    .string "MIKE JONES! WHO!? MIKE JONES!$"
 
 Route3_Text_ColtonIntro::
     .string "Hey!\n"
@@ -31,34 +33,34 @@ Route3_Text_BenPostBattle::
     .string "30 POKéMON.$"
 
 Route3_Text_JaniceIntro::
-    .string "Excuse me!\n"
-    .string "You looked at me, didn't you?$"
+    .string "Hello!\n"
+    .string "It's a pleasure to meet you.$"
 
 Route3_Text_JaniceDefeat::
     .string "You're mean!$"
 
 Route3_Text_JanicePostBattle::
-    .string "You shouldn't be staring if you\n"
-    .string "don't want to battle!$"
+    .string "Somtimes, maybe often, looks\n"
+    .string "can be deceiving.$"
 
 Route3_Text_GregIntro::
-    .string "Are you a TRAINER?\n"
-    .string "Let's get with it right away!$"
+    .string "HOWDY TRAINER!!\n"
+    .string "Let's get down to acion!$"
 
 Route3_Text_GregDefeat::
-    .string "If I had new POKéMON, I would've\n"
-    .string "won!$"
+    .string "YIKES, bested by a rich dwarf.\n"
+    .string "A strong, rich dwarf. :D$"
 
 Route3_Text_GregPostBattle::
     .string "If a POKéMON BOX on the PC gets\n"
     .string "full, just switch to another BOX.$"
 
 Route3_Text_SallyIntro::
-    .string "That look you gave me…\n"
-    .string "It's so intriguing!$"
+    .string "Do you admire modesty?\n"
+    .string "Are YOU modest!?$"
 
 Route3_Text_SallyDefeat::
-    .string "Be nice!$"
+    .string "The modes thing to do is lose.$"
 
 Route3_Text_SallyPostBattle::
     .string "You can avoid battles by not\n"
@@ -66,22 +68,23 @@ Route3_Text_SallyPostBattle::
 
 Route3_Text_CalvinIntro::
     .string "Hey! You're not wearing shorts!\n"
-    .string "What's wrong with you?$"
+    .string "How do I know you're kewl??$"
 
 Route3_Text_CalvinDefeat::
     .string "Lost!\n"
-    .string "Lost! Lost!$"
+    .string "Like a peanut out a bag.$"
 
 Route3_Text_CalvinPostBattle::
     .string "I always wear shorts, even in\n"
-    .string "winter. That's my policy.$"
+    .string "winter. I'm the breezy type. ;)$"
 
 Route3_Text_JamesIntro::
-    .string "I'll battle you with the POKéMON\n"
-    .string "I just caught.$"
+    .string "Everyone watch me spank this pygmy\n"
+    .string "with  POKéMON I just caught.$"
 
 Route3_Text_JamesDefeat::
-    .string "Done like dinner!$"
+    .string "I guess I shouldn't have\n"
+    .string "tried to draw a crowd.$"
 
 Route3_Text_JamesPostBattle::
     .string "Trained POKéMON are stronger than\n"
@@ -89,10 +92,10 @@ Route3_Text_JamesPostBattle::
 
 Route3_Text_RobinIntro::
     .string "Eek!\n"
-    .string "Did you touch me?$"
+    .string "Are they wearing shorts?$"
 
 Route3_Text_RobinDefeat::
-    .string "That's it?$"
+    .string "Well done young lad of the poke.$"
 
 Route3_Text_RobinPostBattle::
     .string "ROUTE 4 is at the foot of\n"

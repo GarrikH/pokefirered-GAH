@@ -21,18 +21,14 @@ Text_DreamEaterTaught::
     .string "I…can't eat…anymore…$"
 
 PewterCity_Text_ClefairyCameFromMoon::
-    .string "CLEFAIRY came from the moon.\n"
-    .string "That's what the rumor is.\p"
-    .string "They appeared after MOON STONES\n"
-    .string "fell on MT. MOON.$"
+    .string "Often it is the ugly that is\n"
+    .string "the impetus for beauty."
 
 PewterCity_Text_BrockOnlySeriousTrainerHere::
-    .string "There aren't many serious POKéMON\n"
-    .string "TRAINERS here.\p"
-    .string "They're all like BUG CATCHERS,\n"
-    .string "you know, just hobbyists.\p"
-    .string "But PEWTER GYM's BROCK isn't like\n"
-    .string "that, not one bit.$"
+    .string "Welcome to PEWTER CITY!\p"
+    .string "Though the forest is mostly bugs\n"
+    .string "our GYM LEADER is known for using\p"
+    .string "ROCK POKeMON.$"
 
 PewterCity_Text_DidYouCheckOutMuseum::
     .string "Did you check out the MUSEUM?$"
@@ -43,12 +39,12 @@ PewterCity_Text_WerentThoseFossilsAmazing::
 
 PewterCity_Text_ReallyYouHaveToGo::
     .string "Really?\n"
-    .string "You absolutely have to go!$"
+    .string "I will show you it now!$"
 
 PewterCity_Text_ThisIsTheMuseum::
     .string "This is it, the MUSEUM.\p"
     .string "You have to pay to get in, but it's\n"
-    .string "worth it. See you around!$"
+    .string "worth it. Byb, pip squeek!$"
 
 PewterCity_Text_DoYouKnowWhatImDoing::
     .string "Psssst!\n"
@@ -64,12 +60,12 @@ PewterCity_Text_SprayingRepelToKeepWildMonsOut::
 
 PewterCity_Text_BrocksLookingForChallengersFollowMe::
     .string "You're a TRAINER, right?\p"
-    .string "BROCK's looking for new\n"
-    .string "challengers. Follow me!$"
+    .string "BROCK's looking for GYM\n"
+    .string "challengers. Let's go!$"
 
 PewterCity_Text_GoTakeOnBrock::
-    .string "If you have the right stuff,\n"
-    .string "go take on BROCK!$"
+    .string "Believe in yourself,\n"
+    .string "and go take on BROCK!$"
 
 PewterCity_Text_TrainerTipsEarningEXP::
     .string "TRAINER TIPS\p"
@@ -122,7 +118,7 @@ PewterCity_Text_OhPlayer::
 
 PewterCity_Text_AskedToDeliverThis::
     .string "I'm glad I caught up to you.\n"
-    .string "I'm PROF. OAK's AIDE.\p"
+    .string "I help out MASTER THAY.\p"
     .string "I've been asked to deliver this,\n"
     .string "so here you go.$"
 
@@ -140,15 +136,37 @@ PewterCity_Text_ExplainRunningShoes::
 
 PewterCity_Text_MustBeGoingBackToLab::
     .string "Well, I must be going back to\n"
-    .string "the LAB.\p"
-    .string "Bye-bye!$"
+    .string "HOME.\p"
+    .string "Bye, {PLAYER}!$"
 
 PewterCity_Text_RunningShoesLetterFromMom::
     .string "There's a letter attached…\p"
     .string "Dear {PLAYER},\p"
-    .string "Here is a pair of RUNNING SHOES\n"
-    .string "for my beloved challenger.\p"
-    .string "Remember, I'll always cheer for\n"
-    .string "you! Don't ever give up!\p"
-    .string "From Mom$"
+    .string "I know that starting out on\n"
+    .string "something new can be scary.\p"
+    .string "You may feel lonely or inadequate\n"
+    .string "at times. But please know that\p"
+    .string "I am always there for you. When\n"
+    .string "times are hard, just think of me\p"
+    .string "and remember that I love you\n"
+    .string "and always will, no matter what.\p"
+    .string "I will always be fighting for you.\n"
+    .string "I hope you enjoy the fancy SHOES!\p"
+    .string "Love MOM$"
 
+
+PewterCity_TEXT_INTEROSPECTION::
+    .string "{PLAYER}:----THOUGHTS-------\p"
+    .string "Though we are young, it's been\n"
+    .string "quite a tale already.\p"
+    .string "One thing that I have noticed\n"
+    .string "is how how nice most people are\p"
+    .string "when you are nice to them.\n"
+    .string "I am surprised at how hard\p"
+    .string "many people's lives are.\n"
+    .string "I wish I could help...$"
+
+PewterCity_Text_ASK_SET_FLAG::
+    .string "Those are my thoughts so far.\p"
+    .string "Would you like to hear {PLAYER}'s\n"
+    .string "thoughts going forward?$"

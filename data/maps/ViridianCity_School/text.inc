@@ -1,11 +1,14 @@
 ViridianCity_School_Text_TryingToMemorizeNotes::
-    .string "Whew! I'm trying to memorize all my\n"
-    .string "notes.$"
+    .string "I love learning! It's amazing\n"
+    .string "how much knowledge is out there,\p"
+    .string "just waiting to be absorbed.\n"
+    .string "as hard as it feels sometimes\p"
+    .string "I still love the accomplishment\n"
+    .string "and satisfaction I feel.$"
 
 ViridianCity_School_Text_ReadBlackboardCarefully::
-    .string "Okay!\p"
-    .string "Be sure to read what's on the\n"
-    .string "blackboard carefully!$"
+    .string "Watching studnets learn is special!\p"
+    .string "Helping them is just... <3$"
 
 ViridianCity_School_Text_NotebookFirstPage::
     .string "Let's check out the notebook.\p"

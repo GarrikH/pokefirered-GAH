@@ -3,17 +3,10 @@ PewterCity_PokemonCenter_1F_Text_TeamRocketMtMoonImOnPhone::
     .string "TEAM ROCKET is at MT. MOON?\n"
     .string "Huh?\p"
     .string "I'm on the phone!\n"
-    .string "Scram!$"
+    .string "OUT MY FACE, PRICK!$"
 
 PewterCity_PokemonCenter_1F_Text_Jigglypuff::
     .string "JIGGLYPUFF: Puu pupuu!$"
-
-PewterCity_PokemonCenter_1F_Text_WhenJiggylypuffSingsMonsGetDrowsy::
-    .string "Yawn!\p"
-    .string "When JIGGLYPUFF sings, POKéMON get\n"
-    .string "drowsy…\p"
-    .string "…Me, too…\n"
-    .string "Snore…$"
 
 PewterCity_PokemonCenter_1F_Text_TradingMyClefairyForPikachu::
     .string "I really want a PIKACHU, so I'm\n"

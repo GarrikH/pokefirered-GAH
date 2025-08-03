@@ -1,11 +1,13 @@
 ViridianCity_House_Text_NicknamingIsFun::
-    .string "Coming up with nicknames is fun,\n"
-    .string "but it's not so easy to do.\p"
-    .string "Clever names are nice, but simple\n"
-    .string "names are easier to remember.$"
+    .string "Do not ask me how I am\n"
+    .string "for I neither care nor know."
 
 ViridianCity_House_Text_MyDaddyLovesMonsToo::
-    .string "My daddy loves POKéMON, too.$"
+    .string "My daddy has been listening\n"
+    .string "to talks by MASTER THAY.\p"
+    .string "I don't understand them,\n"
+    .string "but I like that it makes\p"
+    .string "my daddy happy."
 
 ViridianCity_House_Text_Speary::
     .string "SPEARY: Tetweet!$"

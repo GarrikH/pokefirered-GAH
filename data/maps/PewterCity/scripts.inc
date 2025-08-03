@@ -721,6 +721,15 @@ PewterCity_EventScript_AideGiveRunningShoes::
 	removeobject LOCALID_PEWTER_AIDE
 	setflag FLAG_SYS_B_DASH
 	setvar VAR_MAP_SCENE_PEWTER_CITY, 2
+	textcolor NPC_TEXT_COLOR_NEUTRAL
+	msgbox PewterCity_TEXT_INTEROSPECTION,
+	closemessage
+	msgbox PewterCity_Text_ASK_SET_FLAG, MSGBOX_YESNO 
+	call_if_eq VAR_RESULT, YES, PewterCity_EventScript_SetFlag 
+	return
+
+PewterCity_EventScript_SetFlag::
+	setflag(FLAG_DONT_SHARE_THOUGHTS)
 	return
 
 PewterCity_EventScript_AideNoticePlayer::

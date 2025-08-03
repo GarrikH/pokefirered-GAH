@@ -1,25 +1,20 @@
 PewterCity_Gym_Text_BrockIntro::
-    .string "So, you're here. I'm BROCK.\n"
+    .string "Welcome to the GYM. I'm BROCK.\n"
     .string "I'm PEWTER's GYM LEADER.\p"
-    .string "My rock-hard willpower is evident\n"
-    .string "even in my POKéMON.\p"
-    .string "My POKéMON are all rock hard, and\n"
-    .string "have true-grit determination.\p"
-    .string "That's right - my POKéMON are all\n"
-    .string "the ROCK type!\p"
-    .string "Fuhaha! You're going to challenge\n"
-    .string "me knowing that you'll lose?\p"
-    .string "That's the TRAINER's honor that\n"
-    .string "compels you to challenge me.\p"
-    .string "Fine, then!\n"
-    .string "Show me your best!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
+    .string "I admire the stoic strengtth\n"
+    .string "of ROCK POKeMON, and I hope\p"
+    .string "that I may learn from them,\n"
+    .string "since often in life we could\p"
+    .string "be more solid, and have thicker skin.\n"
+    .string "By taking on challenges we both grow.\p"
+    .string "Let's go!{PLAY_BGM}{MUS_ENCOUNTER_GYM_LEADER}$"
 
 @ NOTE: This defeat text actually causes a buffer overflow. It's too long for the gDisplayedStringBattle
 @ buffer that it's put into, and it stomps all over the gBattleTextBuffs after, as well as the otherwise
 @ unused array after that, sFlickerArray. Perhaps that's the reason why said array exists.
 PewterCity_Gym_Text_BrockDefeat::
-    .string "I took you for granted, and so\n"
-    .string "I lost.\p"
+    .string "Your preparation was immaculate,\n"
+    .string "and so, I lost.\p"
     .string "As proof of your victory, I confer\n"
     .string "on you this…the official POKéMON\l"
     .string "LEAGUE BOULDERBADGE.\p"
@@ -33,7 +28,7 @@ PewterCity_Gym_Text_BrockDefeat::
     .string "move FLASH to use it.$"
 
 PewterCity_Gym_Text_TakeThisWithYou::
-    .string "Wait!\n"
+    .string "Also, {PLAYER}\n"
     .string "Take this with you.$"
 
 PewterCity_Gym_Text_ReceivedTM39FromBrock::
@@ -46,8 +41,6 @@ PewterCity_Gym_Text_ExplainTM39::
     .string "Using a TM teaches the move it\n"
     .string "contains to a POKéMON.\p"
     .string "A TM is good for only one use.\p"
-    .string "So, when you use one, pick the\n"
-    .string "POKéMON carefully.\p"
     .string "Anyways…\n"
     .string "TM39 contains ROCK TOMB.\p"
     .string "It hurls boulders at the foe and\n"
@@ -66,31 +59,37 @@ PewterCity_Gym_Text_DontHaveRoomForThis::
     .string "You don't have room for this.$"
 
 PewterCity_Gym_Text_LiamIntro::
-    .string "Stop right there, kid!\p"
-    .string "You're ten thousand light-years \n"
-    .string "from facing BROCK!$"
+    .string "Welcome to our GYM.\n"
+    .string "Though you are young,\p"
+    .string "you shall receive no mercy.\n"
+    .string "All I ask is you do your best\p"
+    .string "and be gracious, whether you\n"
+    .string "'win' or 'lose'.$"
 
 PewterCity_Gym_Text_LiamDefeat::
-    .string "Darn!\p"
-    .string "Light-years isn't time…\n"
-    .string "It measures distance!$"
+    .string "Great effort young sage.\p"
+    .string "I am glad to let you proceed\n"
+    .string "to challenge BROCK!\p"
+    .string "He is a great teacher...$"
 
 PewterCity_Gym_Text_LiamPostBattle::
-    .string "You're pretty hot.\n"
-    .string "…But not as hot as BROCK!$"
+    .string "Crack rocks and rock cracks.\n"
+    .string "Too much time in this GYM?$"
 
 PewterCity_Gym_Text_LetMeTakeYouToTheTop::
-    .string "Hiya!\n"
-    .string "Do you want to dream big?\p"
-    .string "Do you dare to dream of becoming\n"
-    .string "the POKéMON champ?\p"
-    .string "I'm no TRAINER, but I can advise\n"
-    .string "you on how to win.\p"
-    .string "Let me take you to the top!$"
+    .string "Hello, {PLAYER}.\n"
+    .string "I pride myself in identifying\p"
+    .string "future CHAMPIONS.\n"
+    .string "Greatness comes in many forms.\p"
+    .string "It is often easier to spot it\n"
+    .string "than to desribe it.\p"
+    .string "Today you take on BROCK.\n"
+    .string "He uses tough ROCK type POKeMON.\p"
+    .string "Would you like my help on your path?$"
 
 PewterCity_Gym_Text_LetsGetHappening::
     .string "All right!\n"
-    .string "Let's get happening!$"
+    .string "Let's rock baby!$"
 
 PewterCity_Gym_Text_TryDifferentPartyOrders::
     .string "The first POKéMON out in a match is\n"
@@ -105,7 +104,7 @@ PewterCity_Gym_Text_ItsFreeLetsGetHappening::
     .string "Let's get happening!$"
 
 PewterCity_Gym_Text_YoureChampMaterial::
-    .string "Just as I thought!\n"
+    .string "AYYY! Just as I thought!\n"
     .string "You're POKéMON champ material!$"
 
 PewterCity_Gym_Text_GymStatue::

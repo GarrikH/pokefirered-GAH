@@ -41,6 +41,10 @@ PewterCity_Museum_1F_Text_PleaseGoAround::
 PewterCity_Museum_1F_Text_ShouldBeGratefulForLongLife::
     .string "I should be grateful for my long\n"
     .string "life.\p"
+    .string "Although aging has its drawbacks\n" 
+    .string "the wisdom and calm is worth it.\p"
+    .string "It's amazing what people can do\n"
+    .string "when they come together.\p"
     .string "Never did I think I would get to\n"
     .string "see the bones of a dragon!$"
 

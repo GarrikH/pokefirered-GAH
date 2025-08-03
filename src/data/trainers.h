@@ -1420,7 +1420,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .party = NO_ITEM_CUSTOM_MOVES(sParty_CamperLiam),
+        .party = NO_ITEM_DEFAULT_MOVES(sParty_CamperLiam),
     },
     [TRAINER_CAMPER_SHANE] = {
         .trainerClass = TRAINER_CLASS_CAMPER,
@@ -4140,7 +4140,7 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .party = NO_ITEM_CUSTOM_MOVES(sParty_LeaderBrock),
+        .party = NO_ITEM_DEFAULT_MOVES(sParty_LeaderBrock),
     },
     [TRAINER_LEADER_MISTY] = {
         .trainerClass = TRAINER_CLASS_LEADER,
@@ -5319,7 +5319,7 @@ const struct Trainer gTrainers[] = {
         .trainerName = _("CHARLIE"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
+        .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT,
         .party = NO_ITEM_DEFAULT_MOVES(sParty_BugCatcherCharlie),
     },
     [TRAINER_TWINS_ELI_ANNE_2] = {

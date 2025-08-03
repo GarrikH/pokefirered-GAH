@@ -4,7 +4,7 @@ ViridianCity_Mart_Text_YouCameFromPallet::
 
 ViridianCity_Mart_Text_TakeThisToProfOak::
     .string "You know MASTER THAY, right?\p"
-    .string "His order came in.\n"
+    .string "His shipment came in.\n"
     .string "Can I get you to take it to him?$"
 
 ViridianCity_Mart_Text_ReceivedOaksParcelFromClerk::
@@ -21,5 +21,5 @@ ViridianCity_Mart_Text_ShopDoesGoodBusinessInAntidotes::
 
 ViridianCity_Mart_Text_GotToBuySomePotions::
     .string "I've got to buy some POTIONS.\p"
-    .string "Truly, I'm just a lazy trainer.$"
+    .string "Or do I have larger problems as a TRAINER?$"
 
